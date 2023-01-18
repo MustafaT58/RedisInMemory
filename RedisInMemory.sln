@@ -5,9 +5,13 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InMemoryApp.Web", "InMemoryApp.Web\InMemoryApp.Web.csproj", "{43E05D54-1B1B-47B1-B50E-A8EC899681D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDistributedCacheRedisApp.Web", "IDistributedCacheRedisApp.Web\IDistributedCacheRedisApp.Web.csproj", "{C74639A9-1F75-4C5A-BF3C-B5F5FDDBB6CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IDistributedCacheRedisApp.Web", "IDistributedCacheRedisApp.Web\IDistributedCacheRedisApp.Web.csproj", "{C74639A9-1F75-4C5A-BF3C-B5F5FDDBB6CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisExchanceAPI.Web", "RedisExchanceAPI.Web\RedisExchanceAPI.Web.csproj", "{6C18D8D8-C911-43D4-98E0-399024EAF331}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedisExchanceAPI.Web", "RedisExchanceAPI.Web\RedisExchanceAPI.Web.csproj", "{6C18D8D8-C911-43D4-98E0-399024EAF331}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisExample.API", "RedisExample.API\RedisExample.API.csproj", "{6FAD8B94-167B-43CB-971E-D7D1F88AF998}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisExample.Cache", "RedisExample.Cache\RedisExample.Cache.csproj", "{CBDD465D-99AF-4C4A-8311-59985CBF42BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{6C18D8D8-C911-43D4-98E0-399024EAF331}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C18D8D8-C911-43D4-98E0-399024EAF331}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C18D8D8-C911-43D4-98E0-399024EAF331}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FAD8B94-167B-43CB-971E-D7D1F88AF998}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FAD8B94-167B-43CB-971E-D7D1F88AF998}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FAD8B94-167B-43CB-971E-D7D1F88AF998}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FAD8B94-167B-43CB-971E-D7D1F88AF998}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBDD465D-99AF-4C4A-8311-59985CBF42BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBDD465D-99AF-4C4A-8311-59985CBF42BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBDD465D-99AF-4C4A-8311-59985CBF42BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBDD465D-99AF-4C4A-8311-59985CBF42BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
